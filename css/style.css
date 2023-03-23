@@ -118,6 +118,13 @@ header label{
     width: 20vw;
 }
 
+.linea{
+    width: 100px;
+    display: flex;
+    border-radius: 4px;
+    color: #36CECE;
+}
+
 @keyframes float{
     0%, 100%{
         transform: translateY(0rem);
