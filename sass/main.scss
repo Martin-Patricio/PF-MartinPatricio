@@ -1,3 +1,18 @@
+@import "vars";
+
+/*Sintaxis de sass*/
+header {
+
+    .navbar{
+        text-decoration: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+/*Selector total*/
+
 *{
     font-family: 'Montserrat', sans-serif;
     margin:0; padding:0;
@@ -7,7 +22,7 @@
 }
 
 
-
+/*Estilos*/
 
 html{
     font-size: 62.5%;
@@ -15,7 +30,7 @@ html{
 }
 
 body{
-    background:#056CCF;
+    background: $color-background;
 }
 
 section{
@@ -43,7 +58,6 @@ section{
 
 .heading{
     text-align: center;
-    background:var(--gradient);
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -68,7 +82,6 @@ header{
 
 header .logo{
     font-size: 2rem;
-    color:var(--purple);
     width: 90px;
     height: auto;
 }
@@ -118,13 +131,6 @@ header label{
     width: 20vw;
 }
 
-.linea{
-    width: 100px;
-    display: flex;
-    border-radius: 4px;
-    color: #36CECE;
-}
-
 @keyframes float{
     0%, 100%{
         transform: translateY(0rem);
@@ -140,7 +146,7 @@ header label{
 }
 .home .content h3{
     font-size: 5.5rem;
-    color:#fdfdfd;
+    color:#fff;
     text-transform: uppercase;
 }
 
@@ -179,9 +185,17 @@ header label{
     color:#d4d4d4;
     padding:1rem 0;
 }
-
-.about .column .content .buttons a:last-child{
-    margin-left: 2rem;
+/*Sintaxis de sass*/
+.about {
+    .column {
+        .content {
+            .buttons {
+                a:last-child{
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
 }
 
 
