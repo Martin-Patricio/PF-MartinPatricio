@@ -33,13 +33,6 @@ body{
     background: $color-background;
 }
 
-section{
-    min-height: 100vh;
-    padding:0 9%;
-    padding-top: 7.5rem;
-    padding-bottom: 2rem;
-}
-
 .btn{
     padding: .9rem;
     display: inline-block;   
@@ -127,7 +120,7 @@ header label{
     background-position: center;
 }
 
-.home .image img{
+.home img{
     width: 20vw;
 }
 
@@ -421,8 +414,8 @@ header label{
     
     section{
         padding:0 3%;
-        padding-top: 7.5rem;
-        padding-bottom: 2rem;
+        padding-top: 9.5rem;
+        padding-bottom: 19rem;
     }
     .home .content .text_nav{
         font-size: 10rem;
@@ -481,7 +474,7 @@ header label{
     }
 
     .home .image img{
-        width:100%;
+        width:10px;
     }
 
     .home .content .text_nav{

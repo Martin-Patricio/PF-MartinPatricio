@@ -124,7 +124,7 @@ header label {
 }
 
 .home .image img {
-  width: 20vw;
+  width: 20vh;
 }
 
 @keyframes float {
